@@ -1,3 +1,15 @@
+Tecnobsoleto es una tienda online de tecnologia obsoleta
+
+EL home muestra todos los productos disponibles, los carga desde una base de datos creada con Firebase-Firestore.
+
+En el NavBar podemos elegir entre el Home o una de las 3 categorías (Celulares, reproductores de MP3 y agendas electrónicas) y también tiene el cartWidget con un contador
+que se va actualizando a medida que agregamos productos al carrito.
+
+Al clickear en los Ítems no abre un Item Detail, en esta vista podemos ver más información sobre el producto, un contador para setear la cantidad de productos que vamos a agregar al carrito (que tiene como límite el stock disponible de cada producto) y un botón para agregar al carrito. Cuando hacemos click en el botón de agregar al carrito el contador desaparece y en su lugar aparece un botón para ir al carrito.
+
+En el carrito nos muestra los productos agregados, con la cantidad, el subtotal, y un botón que nos permite borrar el producto del carrito y también un Total de precio. Tiene un botón para vaciar el carrito y un botón para Comprar. Al darle click en Comprar nos lleva a un Check out con un formulario y la información de los productos, al darle click en comprar se guarda la orden en una nueva colección en Firebase y nos muestra un SweetAlert con el mensaje de que su compra se realizó con éxito y nos muestra el ID generado por Firebase. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
