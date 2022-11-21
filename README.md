@@ -1,3 +1,5 @@
+Link al proyecto en Netlify: https://tecnob.netlify.app/
+
 Tecnobsoleto es una tienda online de tecnologia obsoleta
 
 EL home muestra todos los productos disponibles, los carga desde una base de datos creada con Firebase-Firestore.
