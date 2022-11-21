@@ -1,0 +1,128 @@
+
+.cart-container{
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+    background-color:#808080 ;
+    border-radius: 20px;
+    min-width: 350px;
+    max-width: 33%;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .6);
+}
+
+.cart-container h3{
+    margin-top: 40px;
+}
+.cart-container h2{
+    letter-spacing: 20px;
+    margin-bottom: 40px;
+}
+
+.emptyCart{
+    margin: auto;
+    margin-top: 150px;
+    background-color: #a0a0a4 ;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
+}
+
+.emptyCart h3{
+    display: inline;
+    position: absolute;
+    padding: 20px;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+.linkCart{
+    display: block;
+    position: absolute;
+    margin:auto;
+    width: 100px;
+    height: 15PX;
+    margin-top: 120px;
+    margin-left: 100px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    color: black;
+    background-color:  #f0f0f0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnComprar{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 30PX;
+    padding: 5px;
+    outline: none;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 13px;
+    color: black;
+    background-color:  #f0f0f0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dltCart {
+    margin-top: 20px;
+}
+
+.form-container{
+    margin: auto;
+    margin-top: 150px;
+    width: 400px;
+    height: 500px; 
+    padding: 40px;
+    background:#808080;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    display: block;
+}
+.input-box{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent
+}
+
+.swal-modal{
+    background-color: #a0a0a4 ;
+}
+
+.cartProdCheck{
+    position: absolute;
+    top: 21%;
+    left: 70%;
+    width: 400px;
+    height: 72%; 
+    padding: 40px;
+    background:#808080;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    overflow: auto;
+    scrollbar-color: hsla(180, 100%, 50%, 0.600) #fff;
+    scrollbar-width: thin;
+}
+.prodCart{
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .6);
+}
